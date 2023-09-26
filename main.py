@@ -6,3 +6,19 @@ for nombre in ["HeeJin", "HyunJin", "HaSeul", "YeoJin", "ViVi", "Kim Lip", "JinS
     loona_integrantes.append(nombre)
 
 print(loona_integrantes)
+
+
+gatito = [
+    " /\_/\ ",
+    "( o.o )",
+    " > ^ < "
+]
+
+
+
+frase = "arriba Loona"
+
+for i, linea in enumerate(gatito):
+    if i == 0:
+        print(frase.center(len(linea)))
+    print(linea)
