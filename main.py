@@ -14,6 +14,7 @@ gatito = [
 ]
 
 
+
 frase = "arriba Loona"
 
 for i, linea in enumerate(gatito):
